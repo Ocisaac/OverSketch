@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<head>
+    <title> OverSketch </title>
+    <meta name="OverSketch" content="canvas">
+    <link href="CSS\main.css" rel="stylesheet">
+    <link href="CSS\canvas.css" rel="stylesheet">
+</head>
+
+<html>
+
+<body>
+    <div class="page-wrap">
+    <header class="canvas-header">
+        <h1><em>OVERSKETCH</em></h1> 
+    </header> 
+        <div class="float-wrap">
+           <div class="chat"> 
+               <div class="chat-box"></div>
+                <input type="text" id="chat-input"> </input>
+           </div>
+ <canvas id="myCanvas">
+Your browser does not support the HTML5 canvas tag.</canvas>
+</div>
+
+
+    <center>
+<br>
+  <button id = "button1" width="10" height="10"> CLEAR </button>
+  
+  
+<p>Color:
+  <select id = "color">
+    <option value="#AAAAAA">Light Gray</option>
+    <option value="#666666">Gray</option>
+    <option value="#000000" selected>Black</option>
+    <option value="#ffff00">Yellow</option>
+    <option value="#ff0000">Red</option>
+    <option value="#66ff33">Green</option>
+    <option value="#0000ff">Blue</option>
+    <option value="#FFFFFF">Eraser</option>
+    <option value="#ff9900">Orange</option>
+    <option value="#AD19B3">Purple</option>
+    <option value="#FAE7C5">White</option>
+  </select>
+</p>
+<p> Size:
+  <select id = "size">
+    <option value="3">Tiny</option>
+    <option value="5">Small</option>
+    <option value="10" selected>Medium</option>
+    <option value="20">Big</option>
+    <option value="50">Huge</option>
+  </select>
+  <p> Brush: 
+  <select id = "brush">
+      <option value="0.3"> Thin </option>
+      <option value="1"> Half-circle</option>
+      <option value="1.2"> Wide </option>
+      <option value="2" selected="selected"> Circle </option>
+  </select>
+  </p>
+<br></center>
+    </div>
+    <footer class="footer">
+            <a href="index.html">Back to main page</a>
+</footer>
+<script src="https://code.jquery.com/jquery-3.0.0.js"></script> 
+<script src = "JS/CanvasScript.js"> </script>
+
+</body>
+</html>

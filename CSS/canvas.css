@@ -1,0 +1,119 @@
+@font-face {
+    font-family: 'Hammerhead';
+    src: url('../Fonts/hammerhead/HAMMERHEAD.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+
+* {
+    margin: 0;
+}
+
+html, body {
+    height: 100%;
+}
+
+header h1 {
+    color: rgb(250, 215, 26);
+    font-family: "Hammerhead", Hammerhead;
+    font-weight: bold;
+}    
+
+.canvas-header {
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#fff9f9+1,999999+62,999999+62 */
+	background: rgb(255,249,249); /* Old browsers */
+	background: -moz-linear-gradient(left,  rgb(255,249,249) 1%, rgb(153,153,153) 62%, rgb(153,153,153) 62%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(left,  rgb(255,249,249) 1%,rgb(153,153,153) 62%,rgb(153,153,153) 62%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to right,  rgb(255,249,249) 1%,rgb(153,153,153) 62%,rgb(153,153,153) 62%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fff9f9', endColorstr='#999999',GradientType=1 ); /* IE6-9 */
+
+}
+
+.page-wrap {
+    min-height: 100%;
+
+    margin-bottom: -26px;
+}
+
+.page-wrap:after {
+    content: "";
+    display: block;
+}
+
+.float-wrap {
+    overflow: auto;
+}
+
+.chat {
+    width: 16%;
+    float: left;
+    margin: 0 0 0 0.5%;
+    height: 450px;
+}
+
+.chat-box {
+    background: white;
+    width: 100%;
+    margin: 0;
+    border: 1px solid;
+    height: 430px;
+}
+
+#chat-input{
+    width: 100%;
+    border: 1px solid;
+}
+canvas {
+    background: white;
+    border: 2px solid black;
+    width: 80%;
+    height: 450px;
+    cursor: crosshair;
+    float: left;
+    margin-left: 1%;
+}
+
+canvas:after{
+    clear: both;
+    content: "";
+    display: table;
+}
+
+select {
+    border-radius: 4px;
+    width: 100px;    
+    box-shadow: 0 3px 0 #ccc, 0 -1px #fff inset;
+    border:none;
+    outline:none;
+    display: inline-block;
+    cursor: pointer;
+    appearance: none;
+}
+
+.footer, .page-wrap:after {
+    height: 26px;
+}
+
+.footer {
+    background: rgb(250, 245, 243);
+}
+
+footer {
+    margin: 0;
+    padding: 0 0 0 26px;
+    
+}
+
+.footer a {
+    //background: black;
+
+    color: rgb(230, 195, 6);
+    text-decoration: none;
+}
+fieldset {
+	height: 350px;
+	width: 18%;
+	margin-right: 81%;
+}

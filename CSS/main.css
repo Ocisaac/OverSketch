@@ -1,0 +1,107 @@
+body {
+    background: #999;
+    font-family: Verdana, Geneva, sans-serif;
+    margin: 0 0 0 0;
+    padding: 0px;
+}
+
+body a{
+    color: green;
+    
+    font-family: "Arial Black", Gadget, serif;
+}
+
+header{
+    padding: 5px 15px 0 15px;
+    margin: 0 0 15px 0;
+    background: grey;
+    color: #777;
+}
+
+header h1 {
+    display: inline;
+    color: #222;
+}
+
+nav {
+    display: inline;
+    margin: 0;
+}
+
+
+nav ul{
+    margin: 0;
+    display: inline;
+}
+
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    background: black;
+    color: white;
+    padding: 5px 5px;
+    margin: 0;
+    border-radius: 5px;
+}
+
+nav ul li a{
+    color: white;
+    font-family: "Arial Black", Gadget, sans-serif;
+}
+
+.row {
+    margin: 0;
+}
+
+.col{
+    float: left;
+    width: 33%;
+    border-radius: 10px;
+    background: #333;
+    margin: 0px 0 0.2% 0.2%; 
+}
+
+
+.buttons{
+    background-color: #333;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    padding: 15px 0 15px 0;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 0 1% 0 0;
+    cursor: pointer;
+    width: 100%
+}
+
+.row:after{
+    clear: both;
+    content: " ";
+    display: table;
+}
+
+checklist ul{
+    color: purple;
+    font-size: 23px;
+    margin: 13px;
+}
+
+checklist h1{
+    margin: 13px;
+}
+
+.checked{
+    text-decoration: line-through;
+    color: red;
+}
+
+.ch-man:after{
+    clear: both;
+}
+
+.ch-man-col{
+   margin: auto; 
+}
+

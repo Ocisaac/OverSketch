@@ -1,0 +1,52 @@
+<!doctype html> 
+<html>
+    <head>
+        <link href="CSS\main.css" rel="stylesheet">
+    </head>
+
+    <body>
+
+       <header>
+           <h1>My website</h1>
+		   
+           <nav>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Contact</a></li>
+                    <li><a href="#">Forums</a></li>
+                </ul>
+
+           </nav>
+       </header> 
+
+       <div id="ch-man">
+           <div class="ch-man-col"><button class="ch-man-button" id="ch-man-add" onclick="add()" style = "margin-left: 10px;">Add item!</button></div>
+       <div>
+
+       <div id="ch-buttons">
+           <div class="row">
+               <div class="col"><button class="buttons" id="button1" onclick="press(1)">Button 1</button></div>
+               <div class="col"><button class="buttons" id="button2" onclick="press(2)">Button 2</button></div>
+               <div class="col"><button class="buttons" id="button3" onclick="press(3)">Button 3</button></div>
+
+           </div>
+       </div>
+
+       <checklist>
+       <h1> Your checklist </h1>
+       <ul id="checklist" class="ulist">
+            <li> Item 1 </li> 
+            <li> Item 2 </li> 
+            <li> Item 3 </li>
+       </ul>
+       </checklist>
+
+       <br>
+       <a href="canvas.html" style="margin-left: 2px">Try the canvas</a>
+
+       <script src="JS\listchecking.js"></script>
+
+    </body>
+</html>
